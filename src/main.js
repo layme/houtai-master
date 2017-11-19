@@ -8,8 +8,6 @@ import routeConfig from './router-config'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 
-import store from './store.js'
-
 //加载路由中间件
 Vue.use(ElementUI)
 Vue.use(VueRouter)
@@ -22,7 +20,6 @@ const router = new VueRouter({
 
 new Vue({
   router,
-  store,
   el: "#app",
   render: h => h(App)
 })

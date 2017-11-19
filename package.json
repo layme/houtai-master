@@ -2,7 +2,7 @@
   "name": "houtai",
   "version": "1.0.0",
   "description": "后台关管理系统",
-  "author": "peng <1024371442@qq.com>",
+  "author": "lanyme",
   "private": false,
   "scripts": {
     "dev": "node build/dev-server.js",
